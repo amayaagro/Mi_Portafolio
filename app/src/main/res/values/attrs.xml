@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Atributo faltante usado en el tema para windowBackground -->
+    <attr name="colorBackground" format="color" />
+</resources> 

@@ -1,0 +1,28 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.PortafolioPro" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Brand colours -->
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryVariant">@color/primary_dark</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorSecondary">@color/royalblue</item>
+        <item name="colorSecondaryVariant">@color/mediumslateblue</item>
+        <item name="colorOnSecondary">@color/black</item>
+
+        <!-- System bar colors -->
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+        <!-- Optional: set window background as a light grey -->
+        <item name="android:windowBackground">@color/profile_background</item>
+        <item name="materialCardViewStyle">@style/Widget.PortafolioPro.CustomCard</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="Theme.PortafolioPro.NoActionBar" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="Theme.PortafolioPro.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="Theme.PortafolioPro.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+</resources>

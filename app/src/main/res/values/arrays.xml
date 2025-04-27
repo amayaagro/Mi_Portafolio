@@ -1,0 +1,223 @@
+<resources>
+    <!-- Referencias a drawables como ejemplo; reemplaza con tus imágenes -->
+    <array name="gallery_images">
+        <item>@drawable/ic_photo</item>
+        <item>@drawable/ic_photo</item>
+        <item>@drawable/ic_photo</item>
+        <item>@drawable/ic_photo</item>
+    </array>
+
+    <!-- Descripciones correspondientes -->
+    <string-array name="gallery_descriptions">
+        <item>Descripción del proyecto 1</item>
+        <item>Descripción del proyecto 2</item>
+        <item>Descripción del proyecto 3</item>
+        <item>Descripción del proyecto 4</item>
+    </string-array>
+
+    <!-- Títulos de los proyectos -->
+    <string-array name="gallery_titles">
+        <item>Proyecto A</item>
+        <item>Proyecto B</item>
+        <item>Proyecto C</item>
+        <item>Proyecto D</item>
+    </string-array>
+
+    <!-- Perfiles de login -->
+    <string-array name="login_profiles">
+        <item>Ivan Alaguna</item>
+        <item>Alexander Amaya Arango</item>
+        <item>Brayan Alvarez Mahecha</item>
+        <item>Ilder Martinez</item>
+        <item>Gusravi Mahecha Campos</item>
+    </string-array>
+
+    <!-- Contraseñas de login en mismo orden -->
+    <string-array name="login_passwords">
+        <item>123456</item>
+        <item>123456</item>
+        <item>123456</item>
+        <item>123456</item>
+        <item>123456</item>
+    </string-array>
+
+    <!-- Proyectos perfil 0: Ivan Alaguna -->
+    <array name="gallery_images_0">
+        <item>@drawable/project_todo</item>
+        <item>@drawable/project_calculator</item>
+        <item>@drawable/project_restaurant</item>
+        <item>@drawable/project_weather</item>
+    </array>
+    <string-array name="gallery_titles_0">
+        <item>Pipeline CI/CD con Jenkins</item>
+        <item>Infraestructura como Código con Terraform</item>
+        <item>Orquestación de Contenedores en Kubernetes</item>
+        <item>Despliegue con Docker Compose</item>
+    </string-array>
+    <string-array name="gallery_descriptions_0">
+        <item>Diseño y automatización de pipelines de integración y entrega continua usando Jenkins, integrando pruebas y despliegues automáticos.</item>
+        <item>Definición de infraestructura en la nube con Terraform, versionando el código y gestionando recursos de forma declarativa.</item>
+        <item>Gestión y escalado de aplicaciones en clústeres Kubernetes, configurando despliegues y servicios con tolerancia a fallos.</item>
+        <item>Orquestación de entornos multicontenedor con Docker Compose para desarrollo local y pruebas integradas.</item>
+    </string-array>
+
+    <!-- Proyectos perfil 1: Alexander Amaya Arango -->
+    <array name="gallery_images_1">
+        <item>@drawable/ic_photo</item>
+        <item>@drawable/ic_video</item>
+        <item>@drawable/ic_web</item>
+        <item>@drawable/button</item>
+    </array>
+    <string-array name="gallery_titles_1">
+        <item>Tienda E-commerce con React.js</item>
+        <item>API RESTful con Node.js</item>
+        <item>Dashboard Administrativo en Angular</item>
+        <item>Automatización de Pruebas con Jest</item>
+    </string-array>
+    <string-array name="gallery_descriptions_1">
+        <item>Desarrollo de una tienda en línea con React.js, gestión de productos, carritos de compra y procesamiento de pagos.</item>
+        <item>Desarrollo de APIs RESTful con Node.js y Express, integrando JWT para seguridad y MongoDB para persistencia.</item>
+        <item>Construcción de un panel administrativo con Angular, consumiendo datos de APIs y mostrando información en tiempo real.</item>
+        <item>Implementación de pruebas unitarias y de integración con Jest y React Testing Library para validar componentes.</item>
+    </string-array>
+
+    <!-- Proyectos perfil 2: Brayan Alvarez Mahecha -->
+    <array name="gallery_images_2">
+        <item>@drawable/project_calculator</item>
+        <item>@drawable/project_restaurant</item>
+        <item>@drawable/project_weather</item>
+        <item>@drawable/project_todo</item>
+    </array>
+    <string-array name="gallery_titles_2">
+        <item>Chat en Tiempo Real con WebSocket</item>
+        <item>Arquitectura de Microservicios con Spring Boot</item>
+        <item>SPA Interactiva con Vue.js</item>
+        <item>Pruebas E2E con Selenium</item>
+    </string-array>
+    <string-array name="gallery_descriptions_2">
+        <item>Implementación de un chat en tiempo real usando WebSockets, con canales de conversación y notificaciones en vivo.</item>
+        <item>Desarrollo de microservicios con Spring Boot, registrados en Eureka y documentados con Swagger.</item>
+        <item>Creación de una aplicación de una sola página con Vue.js, gestionando estado con Vuex y navegación con Vue Router.</item>
+        <item>Automatización de pruebas E2E con Selenium WebDriver para garantizar la experiencia de usuario.</item>
+    </string-array>
+
+    <!-- Proyectos perfil 3: Ilder Martinez -->
+    <array name="gallery_images_3">
+        <item>@drawable/gradient_overlay</item>
+        <item>@drawable/ic_photo</item>
+        <item>@drawable/ic_video</item>
+        <item>@drawable/ic_web</item>
+    </array>
+    <string-array name="gallery_titles_3">
+        <item>Arquitectura de Microservicios con Kafka</item>
+        <item>Servicios Serverless en AWS</item>
+        <item>Monitoreo con Prometheus y Grafana</item>
+        <item>Migración a Microfrontends</item>
+    </string-array>
+    <string-array name="gallery_descriptions_3">
+        <item>Diseño y despliegue de microservicios usando Apache Kafka para mensajería asíncrona y alta disponibilidad.</item>
+        <item>Implementación de servicios serverless con AWS Lambda y API Gateway para escalabilidad sin servidores.</item>
+        <item>Configuración de monitoreo con Prometheus y dashboards en Grafana, con alertas personalizadas.</item>
+        <item>Estrategias de migración de monolitos a microfrontends, facilitando despliegues independientes.</item>
+    </string-array>
+
+    <!-- Proyectos perfil 4: Gusravi Mahecha Campos -->
+    <array name="gallery_images_4">
+        <item>@drawable/project_weather</item>
+        <item>@drawable/ic_photo</item>
+        <item>@drawable/controls_button_background</item>
+        <item>@drawable/video_controls_background</item>
+    </array>
+    <string-array name="gallery_titles_4">
+        <item>Pipeline ETL con Apache Spark</item>
+        <item>Dashboards en Power BI</item>
+        <item>Data Lake en AWS S3</item>
+        <item>Streaming de Datos con Kafka</item>
+    </string-array>
+    <string-array name="gallery_descriptions_4">
+        <item>Construcción de pipelines ETL con Apache Spark, transformando grandes volúmenes de datos de múltiples fuentes.</item>
+        <item>Desarrollo de dashboards en Power BI conectados a fuentes de datos en la nube para visualización de métricas.</item>
+        <item>Diseño de data lakes en AWS S3, organizando datos en zonas de raw, processed y curated.</item>
+        <item>Implementación de streaming de datos con Apache Kafka para procesamiento en tiempo real.</item>
+    </string-array>
+
+    <!-- URLs de imágenes por perfil usando drawables locales para cada tecnología -->
+    <string-array name="gallery_image_urls_0">
+        <!-- Pipeline CI/CD con Jenkins -->
+        <item>android.resource://com.example.portafoliopro/drawable/jenkins_logo</item>
+        <!-- Infraestructura como Código con Terraform -->
+        <item>android.resource://com.example.portafoliopro/drawable/terraform_logo</item>
+        <!-- Orquestación de Contenedores en Kubernetes -->
+        <item>android.resource://com.example.portafoliopro/drawable/kubernetes_logo</item>
+        <!-- Despliegue con Docker Compose -->
+        <item>android.resource://com.example.portafoliopro/drawable/docker_compose_logo</item>
+    </string-array>
+
+    <string-array name="gallery_image_urls_1">
+        <!-- Tienda E-commerce con React.js -->
+        <item>android.resource://com.example.portafoliopro/drawable/reactjs_logo</item>
+        <!-- API RESTful con Node.js -->
+        <item>android.resource://com.example.portafoliopro/drawable/nodejs_logo</item>
+        <!-- Dashboard Administrativo en Angular -->
+        <item>android.resource://com.example.portafoliopro/drawable/angular_logo</item>
+        <!-- Automatización de Pruebas con Jest -->
+        <item>android.resource://com.example.portafoliopro/drawable/jest_logo</item>
+    </string-array>
+
+    <string-array name="gallery_image_urls_2">
+        <!-- Chat en Tiempo Real con WebSocket -->
+        <item>android.resource://com.example.portafoliopro/drawable/websocket_logo</item>
+        <!-- Arquitectura de Microservicios con Spring Boot -->
+        <item>android.resource://com.example.portafoliopro/drawable/spring_boot_logo</item>
+        <!-- SPA Interactiva con Vue.js -->
+        <item>android.resource://com.example.portafoliopro/drawable/vuejs_logo</item>
+        <!-- Pruebas E2E con Selenium -->
+        <item>android.resource://com.example.portafoliopro/drawable/selenium_logo</item>
+    </string-array>
+
+    <string-array name="gallery_image_urls_3">
+        <!-- Arquitectura de Microservicios con Kafka -->
+        <item>android.resource://com.example.portafoliopro/drawable/kafka_logo</item>
+        <!-- Servicios Serverless en AWS Lambda -->
+        <item>android.resource://com.example.portafoliopro/drawable/aws_lambda_logo</item>
+        <!-- Monitoreo con Prometheus y Grafana -->
+        <item>android.resource://com.example.portafoliopro/drawable/prometheus_logo</item>
+        <item>android.resource://com.example.portafoliopro/drawable/grafana_logo</item>
+    </string-array>
+
+    <string-array name="gallery_image_urls_4">
+        <!-- Pipeline ETL con Apache Spark -->
+        <item>android.resource://com.example.portafoliopro/drawable/spark_logo</item>
+        <!-- Dashboards en Power BI -->
+        <item>android.resource://com.example.portafoliopro/drawable/powerbi_logo</item>
+        <!-- Data Lake en AWS S3 -->
+        <item>android.resource://com.example.portafoliopro/drawable/aws_s3_logo</item>
+        <!-- Streaming de Datos con Kafka -->
+        <item>android.resource://com.example.portafoliopro/drawable/kafka_logo</item>
+    </string-array>
+
+    <!-- URLs de CV en PDF de ejemplo por perfil -->
+    <string-array name="cv_pdf_urls">
+        <item>https://file-examples.com/wp-content/uploads/2017/10/file-example_PDF_500_kB.pdf</item>
+        <item>https://file-examples.com/wp-content/uploads/2017/10/file-example_PDF_1MB.pdf</item>
+        <item>https://file-examples.com/wp-content/uploads/2017/10/file-example_PDF_3MB.pdf</item>
+        <item>https://file-examples.com/wp-content/uploads/2017/10/file-example_PDF_5MB.pdf</item>
+        <item>https://file-examples.com/wp-content/uploads/2017/10/file-example_PDF_10MB.pdf</item>
+    </string-array>
+    <!-- URLs de CV en Word de ejemplo por perfil -->
+    <string-array name="cv_doc_urls">
+        <item>https://file-examples.com/wp-content/uploads/2017/02/file-sample_500kB.doc</item>
+        <item>https://file-examples.com/wp-content/uploads/2017/02/file-sample_1MB.doc</item>
+        <item>https://file-examples.com/wp-content/uploads/2017/02/file-sample_2MB.doc</item>
+        <item>https://file-examples.com/wp-content/uploads/2017/02/file-sample_5MB.doc</item>
+        <item>https://file-examples.com/wp-content/uploads/2017/02/file-sample_10MB.doc</item>
+    </string-array>
+
+    <!-- Default fallback de URLs de la galería -->
+    <string-array name="gallery_image_urls">
+        <item>android.resource://com.example.portafoliopro/drawable/ic_photo</item>
+        <item>android.resource://com.example.portafoliopro/drawable/ic_photo</item>
+        <item>android.resource://com.example.portafoliopro/drawable/ic_photo</item>
+        <item>android.resource://com.example.portafoliopro/drawable/ic_photo</item>
+    </string-array>
+</resources> 

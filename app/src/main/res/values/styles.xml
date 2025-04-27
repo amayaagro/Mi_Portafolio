@@ -1,0 +1,11 @@
+<resources>
+    <!-- Estilo personalizado para MaterialCardView con esquinas y elevación unificadas -->
+    <style name="Widget.PortafolioPro.CustomCard" parent="Widget.MaterialComponents.CardView">
+        <!-- Radio de esquina uniforme -->
+        <item name="cardCornerRadius">16dp</item>
+        <!-- Elevación para dar profundidad -->
+        <item name="cardElevation">8dp</item>
+        <!-- Color de fondo coherente con la superficie -->
+        <item name="cardBackgroundColor">?attr/colorSurface</item>
+    </style>
+</resources> 

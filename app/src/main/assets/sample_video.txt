@@ -1,0 +1,3 @@
+Este es un video de ejemplo para el reproductor.
+El video mostrará un mensaje simple.
+Este es un texto de ejemplo que se mostrará en lugar del video. 

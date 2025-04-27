@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/loginFragment">
+
+    <fragment
+        android:id="@+id/loginFragment"
+        android:name="com.example.portafoliopro.ui.auth.LoginFragment"
+        android:label="Iniciar Sesión">
+        <action
+            android:id="@+id/actionLoginToTwoPane"
+            app:destination="@id/twoPaneFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/twoPaneFragment"
+        android:name="com.example.portafoliopro.ui.main.TwoPaneFragment"
+        android:label="Principal">
+        <argument
+            android:name="profileId"
+            app:argType="integer"
+            android:defaultValue="0" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_profile"
+        android:name="com.example.portafoliopro.ui.profile.CustomProfileFragment"
+        android:label="Perfil">
+        <action
+            android:id="@+id/actionCustomProfileToGallery"
+            app:destination="@id/galleryFragment" />
+        <action
+            android:id="@+id/actionCustomProfileToVideo"
+            app:destination="@id/videoFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/paulaGarciaProfileFragment"
+        android:name="com.example.portafoliopro.ui.profile.PaulaGarciaProfileFragment"
+        android:label="Paula García Perfil" />
+
+    <fragment
+        android:id="@+id/webFragment"
+        android:name="com.example.portafoliopro.ui.web.WebFragment"
+        android:label="Web" />
+
+    <fragment
+        android:id="@+id/galleryFragment"
+        android:name="com.example.portafoliopro.ui.gallery.GalleryFragment"
+        android:label="Galería" />
+
+    <fragment
+        android:id="@+id/videoFragment"
+        android:name="com.example.portafoliopro.ui.video.VideoFragment"
+        android:label="Videos" />
+
+    <fragment
+        android:id="@+id/carlosMendozaProfileFragment"
+        android:name="com.example.portafoliopro.ui.profile.CarlosMendozaProfileFragment"
+        android:label="Carlos Mendoza Perfil" />
+
+    <fragment
+        android:id="@+id/mariaLopezProfileFragment"
+        android:name="com.example.portafoliopro.ui.profile.MariaLopezProfileFragment"
+        android:label="María López Perfil" />
+
+    <fragment
+        android:id="@+id/juanPerezProfileFragment"
+        android:name="com.example.portafoliopro.ui.profile.JuanPerezProfileFragment"
+        android:label="Juan Pérez Perfil" />
+
+    <!-- Fragment para demostrar botones -->
+    <fragment
+        android:id="@+id/buttonsFragment"
+        android:name="com.example.portafoliopro.ui.buttons.ButtonsFragment"
+        android:label="Botones" />
+
+</navigation> 

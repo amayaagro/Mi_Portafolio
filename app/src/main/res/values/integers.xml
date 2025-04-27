@@ -1,0 +1,4 @@
+<resources>
+    <!-- Número de columnas de la galería para pantallas normales -->
+    <integer name="gallery_span_count">2</integer>
+</resources> 

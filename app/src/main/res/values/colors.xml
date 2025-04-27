@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="dodgerblue">#BB86FC</color>
+    <color name="mediumblue">#6200EE</color>
+    <color name="darkblue">#3700B3</color>
+    <color name="royalblue">#03DAC5</color>
+    <color name="mediumslateblue">#018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="primary">#6200EE</color>
+    <color name="primary_dark">#3700B3</color>
+    <color name="accent">#BB86FC</color>
+    <color name="profile_background">#F5F5F5</color>
+    <color name="card_background">#FFFFFF</color>
+    <color name="text_primary">#212121</color>
+    <color name="text_secondary">#757575</color>
+    <color name="divider">#BDBDBD</color>
+    <color name="skill_tag">#E3F2FD</color>
+    <color name="skill_text">#1976D2</color>
+    <color name="photo_card_1">#E3F2FD</color>
+    <color name="photo_card_2">#F3E5F5</color>
+    <color name="photo_card_3">#E8F5E9</color>
+    <color name="photo_card_4">#FFF3E0</color>
+    <color name="photo_title">#1976D2</color>
+    <color name="photo_description">#455A64</color>
+    <color name="photo_overlay">#80000000</color>
+</resources>

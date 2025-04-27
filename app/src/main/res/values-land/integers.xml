@@ -1,0 +1,4 @@
+<resources>
+    <!-- En landscape, mostramos 3 columnas en la galería -->
+    <integer name="gallery_span_count">3</integer>
+</resources> 
