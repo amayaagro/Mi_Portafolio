@@ -51,7 +51,7 @@ class MariaLopezProfileFragment : Fragment() {
 
     private fun setupUI() {
         binding.apply {
-            profileName.text = "Ilder Martinez"
+            profileName.text = "Ilder Aguilar Martinez"
             profileTitle.text = "Arquitecto de Software"
             profileDescription.text = "Diseña y lidera arquitecturas escalables en la nube con enfoque en microservicios"
 
