@@ -51,7 +51,7 @@ class JuanPerezProfileFragment : Fragment() {
 
     private fun setupUI() {
         binding.apply {
-            profileName.text = "Gusravi Mahecha Campos"
+            profileName.text = "Gustavo Mahecha Campos"
             profileTitle.text = "Ingeniero de Datos"
             profileDescription.text = "Especialista en sistemas de Big Data y procesamiento en tiempo real."
 
