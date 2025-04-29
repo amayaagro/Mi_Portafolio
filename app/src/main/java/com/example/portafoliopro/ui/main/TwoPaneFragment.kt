@@ -72,10 +72,10 @@ class TwoPaneFragment : Fragment() {
         childFragmentManager.commit {
             replace(binding.rightPane.id, when (id) {
                 0 -> CustomProfileFragment()
-                1 -> PaulaGarciaProfileFragment()
-                2 -> CarlosMendozaProfileFragment()
-                3 -> MariaLopezProfileFragment()
-                4 -> JuanPerezProfileFragment()
+                1 -> AlexanderAmayaProfileFragment()
+                2 -> BrayanAlvarezProfileFragment()
+                3 -> IlderAguilarProfileFragment()
+                4 -> GustavoMahechaProfileFragment()
                 else -> CustomProfileFragment()
             })
         }
