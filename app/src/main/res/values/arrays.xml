@@ -101,7 +101,7 @@
         <item>Automatización de pruebas E2E con Selenium WebDriver para garantizar la experiencia de usuario.</item>
     </string-array>
 
-    <!-- Proyectos perfil 3: Ilder Martinez -->
+    <!-- Proyectos perfil 3: Ilder Aguilar Martinez -->
     <array name="gallery_images_3">
         <item>@drawable/gradient_overlay</item>
         <item>@drawable/ic_photo</item>
@@ -121,7 +121,7 @@
         <item>Estrategias de migración de monolitos a microfrontends, facilitando despliegues independientes.</item>
     </string-array>
 
-    <!-- Proyectos perfil 4: Gusravi Mahecha Campos -->
+    <!-- Proyectos perfil 4: Gustavo Mahecha Campos -->
     <array name="gallery_images_4">
         <item>@drawable/project_weather</item>
         <item>@drawable/ic_photo</item>
@@ -144,56 +144,56 @@
     <!-- URLs de imágenes por perfil usando drawables locales para cada tecnología -->
     <string-array name="gallery_image_urls_0">
         <!-- Pipeline CI/CD con Jenkins -->
-        <item>android.resource://com.example.portafoliopro/drawable/jenkins_logo</item>
+        <item>android.resource://com.example.portafoliopro/drawable/ci_cd</item>
         <!-- Infraestructura como Código con Terraform -->
-        <item>android.resource://com.example.portafoliopro/drawable/terraform_logo</item>
+        <item>android.resource://com.example.portafoliopro/drawable/terraform</item>
         <!-- Orquestación de Contenedores en Kubernetes -->
-        <item>android.resource://com.example.portafoliopro/drawable/kubernetes_logo</item>
+        <item>android.resource://com.example.portafoliopro/drawable/kubernetes</item>
         <!-- Despliegue con Docker Compose -->
-        <item>android.resource://com.example.portafoliopro/drawable/docker_compose_logo</item>
+        <item>android.resource://com.example.portafoliopro/drawable/docker_compose</item>
     </string-array>
 
     <string-array name="gallery_image_urls_1">
         <!-- Tienda E-commerce con React.js -->
-        <item>android.resource://com.example.portafoliopro/drawable/reactjs_logo</item>
+        <item>android.resource://com.example.portafoliopro/drawable/reactjs</item>
         <!-- API RESTful con Node.js -->
-        <item>android.resource://com.example.portafoliopro/drawable/nodejs_logo</item>
+        <item>android.resource://com.example.portafoliopro/drawable/nodejs</item>
         <!-- Dashboard Administrativo en Angular -->
-        <item>android.resource://com.example.portafoliopro/drawable/angular_logo</item>
+        <item>android.resource://com.example.portafoliopro/drawable/angular</item>
         <!-- Automatización de Pruebas con Jest -->
-        <item>android.resource://com.example.portafoliopro/drawable/jest_logo</item>
+        <item>android.resource://com.example.portafoliopro/drawable/jest</item>
     </string-array>
 
     <string-array name="gallery_image_urls_2">
         <!-- Chat en Tiempo Real con WebSocket -->
-        <item>android.resource://com.example.portafoliopro/drawable/websocket_logo</item>
+        <item>android.resource://com.example.portafoliopro/drawable/websocket</item>
         <!-- Arquitectura de Microservicios con Spring Boot -->
-        <item>android.resource://com.example.portafoliopro/drawable/spring_boot_logo</item>
+        <item>android.resource://com.example.portafoliopro/drawable/spring_boot</item>
         <!-- SPA Interactiva con Vue.js -->
-        <item>android.resource://com.example.portafoliopro/drawable/vuejs_logo</item>
+        <item>android.resource://com.example.portafoliopro/drawable/vuejs</item>
         <!-- Pruebas E2E con Selenium -->
-        <item>android.resource://com.example.portafoliopro/drawable/selenium_logo</item>
+        <item>android.resource://com.example.portafoliopro/drawable/selenium</item>
     </string-array>
 
     <string-array name="gallery_image_urls_3">
         <!-- Arquitectura de Microservicios con Kafka -->
-        <item>android.resource://com.example.portafoliopro/drawable/kafka_logo</item>
+        <item>android.resource://com.example.portafoliopro/drawable/kafka</item>
         <!-- Servicios Serverless en AWS Lambda -->
-        <item>android.resource://com.example.portafoliopro/drawable/aws_lambda_logo</item>
+        <item>android.resource://com.example.portafoliopro/drawable/aws_lambda</item>
         <!-- Monitoreo con Prometheus y Grafana -->
-        <item>android.resource://com.example.portafoliopro/drawable/prometheus_logo</item>
-        <item>android.resource://com.example.portafoliopro/drawable/grafana_logo</item>
+        <item>android.resource://com.example.portafoliopro/drawable/prometheus</item>
+        <item>android.resource://com.example.portafoliopro/drawable/grafana</item>
     </string-array>
 
     <string-array name="gallery_image_urls_4">
         <!-- Pipeline ETL con Apache Spark -->
-        <item>android.resource://com.example.portafoliopro/drawable/spark_logo</item>
+        <item>android.resource://com.example.portafoliopro/drawable/spark</item>
         <!-- Dashboards en Power BI -->
-        <item>android.resource://com.example.portafoliopro/drawable/powerbi_logo</item>
+        <item>android.resource://com.example.portafoliopro/drawable/powerbi</item>
         <!-- Data Lake en AWS S3 -->
-        <item>android.resource://com.example.portafoliopro/drawable/aws_s3_logo</item>
+        <item>android.resource://com.example.portafoliopro/drawable/aws_s3</item>
         <!-- Streaming de Datos con Kafka -->
-        <item>android.resource://com.example.portafoliopro/drawable/kafka_logo</item>
+        <item>android.resource://com.example.portafoliopro/drawable/kafka</item>
     </string-array>
 
     <!-- URLs de CV en PDF de ejemplo por perfil -->
