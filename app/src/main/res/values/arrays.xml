@@ -25,11 +25,11 @@
 
     <!-- Perfiles de login -->
     <string-array name="login_profiles">
-        <item>Ivan Alaguna</item>
+        <item>Ivan Alaguna Ramirez</item>
         <item>Alexander Amaya Arango</item>
         <item>Brayan Alvarez Mahecha</item>
-        <item>Ilder Martinez</item>
-        <item>Gusravi Mahecha Campos</item>
+        <item>Ilder Aguilar Martinez</item>
+        <item>Gustavo Mahecha Campos</item>
     </string-array>
 
     <!-- Contraseñas de login en mismo orden -->
