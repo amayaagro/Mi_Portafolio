@@ -69,7 +69,7 @@ class VideoFragment : Fragment() {
         binding.apply {
             try {
                 // Intentar cargar el video desde assets
-                val videoPath = "file:///android_asset/sample_video.mp4"
+                val videoPath = ("https://jotajotavm.com/img/video.mp4")
                 videoView.setVideoPath(videoPath)
                 
                 videoView.setOnPreparedListener { mediaPlayer ->
