@@ -40,7 +40,7 @@ class ProfileFragment : Fragment() {
     private fun setupUI() {
         binding.apply {
             // Información principal
-            profileName.text = "Ivan Laguna"
+            profileName.text = "Ivan Alaguna Ramirez"
             profileTitle.text = "Desarrollador Android"
             profileDescription.text = "Estudiante de Ingeniería en Sistemas\nApasionado por el desarrollo móvil y las nuevas tecnologías"
             
